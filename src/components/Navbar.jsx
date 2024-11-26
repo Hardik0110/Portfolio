@@ -9,11 +9,11 @@ const Navbar = () => {
             <a href="/" aria-label="Home">
             <img src={logo} className="mx-2" width={70} height={33} 
             alt="LOGO" />
-            </a>
+          </a>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <a href="https://www.linkedin.com/in/hardik0110/"
-            target="_blank"
+                target="_blank"
             rel='noopener noreferrer'
             aria-label='LinkedIn'>
                 <FaLinkedin />
@@ -29,14 +29,14 @@ const Navbar = () => {
             rel='noopener noreferrer'
             aria-label='LeetCode'>
                 <FaInstagram />
-            </a>
+              </a>
             <a href="x.com"
             target="_blank"
             rel='noopener noreferrer'
             aria-label='LeetCode'>
                 <FaSquareXTwitter />
             </a>
-        </div>
+      </div>
     </nav>
   )
 }

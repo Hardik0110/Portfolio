@@ -1,4 +1,5 @@
 import profilePic from "../assets/hardikpfp.png"
+import resume from "../assets/hkresume.pdf"
 import { HERO_CONTENT } from "../constants/index"
 
 const Hero = () => {
@@ -20,7 +21,7 @@ const Hero = () => {
                 <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
                     {HERO_CONTENT}
                 </p>
-                <a href="/hkresume.pdf"
+                <a href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
                 download
