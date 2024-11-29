@@ -1,4 +1,4 @@
-import profilePic from "../assets/hardikpfp.png"
+import profilePic from "../assets/hardik.jpg"
 import resume from "../assets/hkresume.pdf"
 import { HERO_CONTENT } from "../constants/index"
 import { motion } from "framer-motion"
