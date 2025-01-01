@@ -50,7 +50,7 @@ const Hero = () => {
                  variants={childVariants}
                 className="bg-gradient-to-r from-stone-300 
                 to-stone-600 bg-clip-text text-3xl tracking-tight 
-                text-transparent">Full Stack Developer</motion.span>
+                text-transparent">Software Developer</motion.span>
                 <motion.p 
                 variants={childVariants}
                 className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
